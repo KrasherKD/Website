@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FRUIT</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+				
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Origins</a>
+  <a href="#">Fruits</a>
+  <a href="#">Foods</a>
+  <a href="#">Mutations</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</style>
+</head>
+
+
+<Head>
+   <div class="content"> <center>
+<h1>
+  <b> Cultivated Fruits </b>
+</h1> 
+<p>
+       <img src="map.gif" style="width:30%;">
+</p>
+</head>
+	   
+	   
+	<head>
+<style>
+p {
+  border-bottom: 6px solid red;
+  background-color: lightgrey;
+}
+</style>
+</head>
+	   <body>
+    <h3>	
+         Most plants are poisonous. Humans have cultivated those few that were edible and nutritious or good tasting,
+         and have selectively bred them over thousands of years for a variety of traits
+         size, flavor, and color. We have also moved them around a lot!
+  		 The geographic region from which our food crops originated is not always obvious from their present day distribution.
+   </h3>
+        </body>
+  </center>
+</div>
+
+</html>
+
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: 808080;}
+
+#customers tr:hover {background-color: #6A5ACD;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6666ff;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+  <tr>
+    <th>Fruits</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Apple</td>
+    <td>Kazakhstan</td>
+  </tr>
+  <tr>
+    <td>Oranges</td>
+    <td>Malasia</td>
+  </tr>
+  <tr>
+    <td>Banana</td>
+    <td>Brasil</td>
+  </tr>
+  <tr>
+    <td>Passion Fruit</td>
+    <td>Mburrucuya</td>
+  </tr>
+  <tr>
+    <td>Peach</td>
+    <td>China</td>
+  </tr>
+  <tr>
+    <td>Blueberrys</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Mango</td>
+    <td>India</td>
+  </tr>
+  <tr>
+    <td>Promegranate</td>
+    <td>Iran</td>
+  </tr>
+  <tr>
+    <td>Grape</td>
+    <td>Spain</td>
+  </tr>
+  <tr>
+    <td>Coconut</td>
+    <td>Fiji</td>
+  </tr>
+</table>
+
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+</head>
+
+
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="apple.jpg" alt="apple" width="600" height="400">
+  </a>
+  <div class="desc">Apple</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="orange.jpg" alt="orange="600" height="700">
+  </a>
+  <div class="desc">Oranges</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="bananavarieties.jpg" alt="bananavarietiesh="600" height="400">
+  </a>
+  <div class="desc">Banana</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="passion fruit.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Passion Fruit</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="peach.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Peach</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="blueberrys.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Blueberrys</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="mango.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Mango</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="promegranate.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Promegranate</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="grape.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">grape</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="coconut.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Coconut</div>
+</div>
+  
+</div>
+</div>
+</body>
+
+<body>
+    <center>
+    <p><b><a href="https://ezyplanter.co.nz" target="_blank">Suprise</a></b></p>
+    </center>
+</body>
+
+</html>
